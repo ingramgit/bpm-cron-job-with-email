@@ -1,7 +1,8 @@
 package com.drools_space.cron_job_rule;
 
-import com.drools_space.cron_job_rule.Item;
 import com.drools_space.cron_job_rule.CallRestApi;
+import com.drools_space.cron_job_rule.Item;
+
 
 rule "Call rest api"
     when 
