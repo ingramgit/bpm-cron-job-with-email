@@ -7,5 +7,5 @@ rule "Call rest api"
     when 
         item: Item(type=="GET")
     then
-        item.setResponse(CallRestApi.getMethod());
+       
     end 
