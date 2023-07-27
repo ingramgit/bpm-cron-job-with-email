@@ -6,12 +6,33 @@ package com.drools_space.cron_job_rule;
 
 public class Item implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Item() {
-    }
+	private java.lang.String type;
+	private java.lang.String response;
 
+	public Item() {
+	}
 
+	public java.lang.String getType() {
+		return this.type;
+	}
 
+	public void setType(java.lang.String type) {
+		this.type = type;
+	}
+
+	public java.lang.String getResponse() {
+		return this.response;
+	}
+
+	public void setResponse(java.lang.String response) {
+		this.response = response;
+	}
+
+	public Item(java.lang.String type, java.lang.String response) {
+		this.type = type;
+		this.response = response;
+	}
 
 }
