@@ -4,6 +4,7 @@ import com.drools_space.cron_job_rule.CallRestApi;
 import com.drools_space.cron_job_rule.Item;
 
 rule "Call rest api"
+    ruleflow-group "Group1"
     when 
         item: Item(type=="GET")
     then
