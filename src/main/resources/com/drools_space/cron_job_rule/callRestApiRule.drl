@@ -1,2 +1,10 @@
 package com.drools_space.cron_job_rule;
 
+import com.drools_space.cron_job_rule.Item;
+
+rule "Call rest api"
+    when 
+        item: Item(type=="GET")
+    then
+        item.setResponse(CallRestApi.getMethod());
+    end 
