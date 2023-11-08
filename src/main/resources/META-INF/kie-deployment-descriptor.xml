@@ -16,12 +16,6 @@
             <parameters/>
             <name>Email</name>
         </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("smtp.gmail.com","587","hitechpoints02@gmail.com","padkmhcuazltuhei");</identifier>
-            <parameters/>
-            <name>email</name>
-        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
